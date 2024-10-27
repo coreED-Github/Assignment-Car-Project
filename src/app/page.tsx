@@ -1,11 +1,4 @@
-export const metadata ={
-  title:"Saira Nasir Web Page"
-}
 import React from "react"
-
-
-
-import { title } from "process"
 import Banner from "./banner/page"
 import HeroSection from "./heroSection/page"
 import Feactured from "./Feactured/page"
