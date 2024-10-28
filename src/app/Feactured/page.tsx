@@ -22,7 +22,8 @@ export default function Feactured(){
 </div>
 
 {/* car 1 */}
-<div className="flex px-10 items-center gap-2 bg-gray-200 w-full h-96  ">
+{/* <div className="flex px-10 items-center gap-2 bg-gray-200 w-full h-96  "> */}
+<div className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center gap-y-20 gap-x-14 mt-10 mb-5" >
 <div className=" px-2 h-96 w-72">
 <Link href="/DetailOne">
 <img src="https://cache1.pakwheels.com/system/car_generation_pictures/5361/medium/Corolla-X-Cars-Cropped-Pictures-for-Website.jpg?1606903674"

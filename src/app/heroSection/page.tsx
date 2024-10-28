@@ -6,10 +6,10 @@ export default function Home() {
         <h1 className="py-1 font-bold text-center mb-8 text-4xl w-full text-blue-900 ">
           Sell Your Car on PakWheels and Get the Best Price
         </h1>
+{/* flex items-center justify-center gap-8 */}
+        <div className="grid grid-cols-1 grid-rows-2 py-2 px-3 bg-gray-200 gap-4 h-auto">
 
-        <div className="flex items-center justify-center gap-8">
-
-          <div className="w-1/2 pl-4 text-left  ">
+          <div className="w-1/2 pl-4 text-left">
             <h2 className="text-2xl font-semibold mb-4 text-blue-800">Post your Ad on PakWheels</h2>
             <ul className="text-gray-700 space-y-2">
               <li>✔ Post your Ad for Free in 3 Easy Steps</li>
